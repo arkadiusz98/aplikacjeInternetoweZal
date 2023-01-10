@@ -21,9 +21,11 @@
             <td>{{$user->name}}</td>
             <td>{{$user->surname}}</td>
             <td>{{$user->phoneNumber}}</td>
+            <td></td>
         </tr>
         @endforeach
         </tbody>
     </table>
+        {{$users->links()}}
     </div>
 @endsection
